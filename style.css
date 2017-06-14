@@ -1,0 +1,59 @@
+
+body {
+    background-color: navy;
+}
+
+header, aside, main, footer {
+    /*font-family: monospace;*/
+    /*outline: 2px dashed black;*/
+    border-radius: 25px;
+    margin: 5px;
+}
+
+header {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 20px;
+    background-color: red;
+}
+
+main {
+    width: 69%;
+    background-color: black;
+    color: white;
+}
+
+    .highlight {
+        color: cyan;
+    }
+
+
+aside {
+    width: 20%;
+    margin-right: 20px;
+    vertical-align: top;
+    overflow: scroll;
+    background-color: teal;
+}
+
+
+
+footer {
+    background-color: grey;
+    padding: 15px
+}
+
+
+/*
+aside > ul {
+    background-color: #FFEC82;
+}*/
+
+aside:hover {
+    background-color: pink;
+}
+
+aside, main {
+    display: inline-block;
+    padding: 1%;
+}
